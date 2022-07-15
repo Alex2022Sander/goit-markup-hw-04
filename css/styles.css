@@ -171,7 +171,24 @@ var(--color-border-header);
     color: var(--blue-logo-color);
 }
 
+.icon {
+  display: inline-block;
+  content: '';
+  fill: currentColor;
+  margin-right: 10px;
+  align-items: center;
+}
 
+.mail-icon {
+}
+.tel-icon {
+}
+
+.contact-link:hover,
+.mail-icon:hover,
+.tel-icon:hover {
+  color: var(--blue-logo-color);
+}
 
 /* hero */
 
