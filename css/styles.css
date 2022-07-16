@@ -179,10 +179,6 @@ var(--color-border-header);
   align-items: center;
 }
 
-.mail-icon {
-}
-.tel-icon {
-}
 
 .contact-link:hover,
 .mail-icon:hover,
