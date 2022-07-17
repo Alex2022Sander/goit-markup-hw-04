@@ -203,7 +203,7 @@ var(--color-border-header);
     text-align: center;
 
     background-image: linear-gradient(to right, var(--hero-shadow), var(--hero-shadow)),
-     url(../images/header-photo.jpg);
+     url(./images/header-photo.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
