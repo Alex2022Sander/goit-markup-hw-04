@@ -27,7 +27,8 @@
   --team-br: rgba(0, 0, 0, 0.2);
   --color-border-header: #ECECEC;
   --hero-shadow: rgba(47, 48, 58, 0.4);
-
+  --team-icon: rgba(175, 177, 184, 1);
+  --footer-icon: rgba(255, 255, 255, 0.1);
 }
 
 
@@ -405,12 +406,6 @@ margin-bottom: 4px;
 }
 
 
-
-.list.select-list {
-  
-}
-
-
 .select-button:hover,
 .select-button:focus {
   background-color: var(--blue-logo-color);
@@ -424,10 +419,7 @@ margin-bottom: 4px;
   padding-bottom: 60px;
     background-color: var(--background-dark-grey);
 }
-.footer-container {
-  
 
-}
 .footer .logo {
     margin-bottom: 20px;
     display: inline-block;
@@ -487,8 +479,6 @@ margin-bottom: 4px;
     gap: 10px;
     width: 206px;
   }
-  .team-item-icon {
-  }
   
   .team-link-icon {
     cursor: pointer;
@@ -499,6 +489,7 @@ margin-bottom: 4px;
     background-color: var(--white-color);
     width: 44px;
     height: 44px;
+    
   }
   
   .team-icon {
@@ -512,3 +503,5 @@ margin-bottom: 4px;
   .team-link-icon:hover {
     background-color: var(--blue-logo-color);
   }
+
+  
