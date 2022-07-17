@@ -504,4 +504,36 @@ margin-bottom: 4px;
     background-color: var(--blue-logo-color);
   }
 
+  /*постоянные клиенты*/
+  .clients-section {
+    background-color: var(--white-color);
+  }
+  .clients-container {
+    height: 184px;
+    display: block;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .clients-container > .clients-list {
+    --card-item: 6;
+  }
   
+  .clients-item {
+    cursor: pointer;
+    width: 170px;
+    height: 92px;
+    padding: 16px 30px 32px;
+    border: 1px solid var(--team-icon);
+  }
+  .clients-item:hover {
+    border: 1px solid var(--blue-logo-color);
+  }
+  .clients-icon {
+    display: block;
+    content: '';
+    fill: var(--team-icon);
+  }
+  
+  .clients-item:hover .clients-icon {
+    fill: var(--blue-logo-color);
+  }
