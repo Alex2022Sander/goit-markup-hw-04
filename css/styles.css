@@ -546,6 +546,7 @@ margin-bottom: 4px;
     height: 92px;
     padding: 16px;
     border: 1px solid var(--social-icon);
+    border-radius: 4px;
   }
   .clients-link:hover,
 .clients-link:focus {
